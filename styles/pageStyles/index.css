@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    Border :0;
+    box-sizing: border-box;
+  }
+
+.header-style {
+    background-color: rgb(47, 157, 124);
+    height: 75px;
+    position : relative ;
+  }
+
+.header-style h2{
+    font-family:"brandon-grotesque", Cursive;
+    position: absolute;
+    top:50%; 
+    transform: translateY(-50%);
+    left:10px;
+    color:aliceblue;
+    font-size:30px;
+}
+
+.footer-style {
+    background-color: rgb(47, 157, 124);
+    height: 75px;
+    position : relative ;
+    margin-bottom:0;
+    
+  }
+.footer-style h4{
+    font-family:"brandon-grotesque", Cursive;
+    position: absolute;
+    top:10%; 
+    transform: translateY(10%);
+    left:10px;
+    color:aliceblue;
+    font-size:30px;
+}
+
+
+
+.nav-list-style{
+    position : absolute;
+    font-family:"brandon-grotesque", cursive;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);}
+.find-list-style{
+    position : absolute;
+    font-family:"brandon-grotesque", cursive;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);}
+.nav-list-style li{
+    margin-right:12px;
+    display: inline-block;
+    font-size:20px;
+    font-weight:bold;
+}
+.find-list-style li{
+    margin-right:12px;
+    display: inline-block;
+    font-size:20px;
+    font-weight:bold;
+}
+.abs{
+    bottom: 1070%;
+    transform: translateY(1070%);
+    
+}
+
+
+
+
+
+
+
+    
+.img-style{
+    margin:0;
+    
+    height:800px;
+    padding-left:0;
+    margin-left:0px;
+    margin-top :0;
+    margin-bottom:0;
+
+    display:inline-block;
+    position:absolute;
+    vertical-align:top;
+    top : 10%;
+}
+.name-style{
+    font-family:"Amaranth", cursive;
+    font-size: 50px;
+    display:inline-block;
+    position:absolute;
+    top: 41%;
+    left:53%;
+    right: 0;
+    
+
+}
+
+.parag-style{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    display:inline-block;
+    position:absolute;
+    top: 63%;
+    left:70%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 40%; /* Adjust the width according to your layout */
+    text-align:center;  
+}
+
+
+
+
+
+.main.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-block; /* Ensure container wraps around floated elements */
+}
